@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/developer-desk-portfolio.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Developer desk with coding projects and AI development setup";
 
 /**
  * Project list
@@ -31,28 +31,40 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "PinVault Pro Extension 📌",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A powerful browser extension for managing and organizing your pins, bookmarks, and saved content with advanced features and intuitive UI.",
+    url: "https://github.com/inyogeshwar/pinvault-pro-extension",
   },
   {
-    title: "Web Development for Beginners",
+    title: "YouTube Channel - Tech Tutorials 🎥",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Educational content covering programming tutorials, development tips, and technology insights for aspiring developers.",
+    url: "https://youtu.be/ie2gPVA_SHc",
   },
   {
-    title: "My Resume Site",
+    title: "AI Tools & Browser Extensions 🚀",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Collection of innovative AI-powered tools and browser extensions that enhance productivity and user experience for developers and general users.",
+    url: "https://github.com/inyogeshwar",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Mobile App Development",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Android applications built with modern technologies, focusing on user-friendly interfaces and performance optimization.",
+    url: "https://github.com/inyogeshwar",
+  },
+  {
+    title: "Open Source Contributions",
+    description:
+      "Active contributor to various open source projects, with Mozilla approval recognition for quality contributions to the developer community.",
+    url: "https://github.com/inyogeshwar",
+  },
+  {
+    title: "Portfolio Website",
+    description:
+      "Personal portfolio showcasing projects, skills, and achievements in web development and programming.",
+    url: "https://inyogeshwar.github.io/yogeshwar-portfolio/",
   },
 ];
 

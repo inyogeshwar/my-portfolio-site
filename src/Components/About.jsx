@@ -16,27 +16,29 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/tech-coding-background.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "Abstract tech background with AI and coding elements";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a 16-year-old developer from Bhagalpur, Bihar, India, passionate about creating AI tools, browser extensions, and mobile apps. I got Mozilla approval at a young age and love contributing to open source projects.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Python",
+  "Java",
+  "Android Development",
+  "JavaScript",
+  "AI Tools",
+  "Browser Extensions",
+  "Open Source",
+  "Azure AI",
 ];
 
 /**
@@ -45,7 +47,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "At just 16 years old, I've already achieved Mozilla approval and built a strong foundation in software development. I'm passionate about creating innovative AI tools and browser extensions that solve real-world problems. My goal is to continue pushing the boundaries of technology while contributing to open source communities. I believe in learning by doing and sharing knowledge with fellow developers around the world.";
 
 const About = () => {
   return (
